@@ -1,5 +1,10 @@
 <html>
 <head>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Find out what DNS reflect a given IP" />
+    <meta name="keywords" content="IP, DNS, nslookup, reverse IP" />
+
+    <title>Get DNS's by IP</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
