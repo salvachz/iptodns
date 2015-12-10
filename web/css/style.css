@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900italic);
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    background:#FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+#content{
+    width:100%;
+    position:relative;
+}
+
+#content #logo-cnt{
+    margin-top:10%;
+}
+
+#content #logo-cnt img{
+    display:block;
+    margin:auto;
+}
+
+#content #search-box{
+    margin-top:5%;
+    margin:auto;
+}
+
+#content #search-box form input[type=text]{
+    height:1.5em;
+    padding:0.5em;
+    font-size:2em;
+    color:#182A5A;
+    border-radius:0.3em;
+    border:1px solid #000;
+    display:block;
+    width:25%;
+    margin:auto;
+    margin-top:1%;
+}
+
+#content #search-box form input[type=submit]{
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    background: #B3C7DE;
+    width: 7em;
+    height: 2em;
+    border-radius: 0.3em;
+    color: #182A5A;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+/*search*/
+
+#content #dns-list{
+    width:30em;
+    margin:auto;
+}
+
+#content #dns-list li{
+    height:5em;
+    background:#FBFBFB;
+    border:0.1em solid #e2e2e2;
+    border-radius:0.3em;
+    list-style:none;
+    margin-top:0.5em;
+}
+
+#content #dns-list li a{
+    text-decoration: none;
+    height: 100%;
+    display: block;
+    width: 75%;
+    line-height: 3em;
+    padding-left: 5%;
+    color: #6EABF1;
+    font-size: 1.5em;
+    background: none;
+    float:left;
+}
+
+#content #dns-list li img{
+    display:block;
+    width:10%;
+    margin-right:5%;
+    margin-top:1em;
+    float:right;
+    max-height:100%;
+}
+
+/*invalid IP address*/
+#content #msg-invalid{
+    width: 30%;
+    margin: 1em auto;
+    text-align: center;
+    font-size: 2em;
+}
