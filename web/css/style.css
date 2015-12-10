@@ -54,6 +54,14 @@
 
 /*search*/
 
+#content #ip-address{
+    width: 20%;
+    margin: 0.5em auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: #182A5A;
+}
+
 #content #dns-list{
     width:30em;
     margin:auto;

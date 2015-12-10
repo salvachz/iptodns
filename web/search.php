@@ -7,12 +7,10 @@ $ip = new Ip($ip_address);
 
 if($ip->is_valid()){
 ?>
-
-
-
 <?php
 $domains = $ip->get_domains();
     if(sizeof($domains)){ ?>
+<div id="ip-address">IP: <?=$ip_address?></div>
 <ul id="dns-list">
 <?php
         foreach($domains as $domain){
