@@ -1,10 +1,13 @@
 <html>
 <head>
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="Find out what DNS reflect a given IP" />
-    <meta name="keywords" content="IP, DNS, nslookup, reverse IP" />
+    <meta property="og:locale" content="pt_BR"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="DNS to IP | Free online tool to convert IP to Domain Name"/>
+    <meta property="og:description" content="DNS to IP - Free Online tool to find out which DNS respond by IP address." />
+    <meta name="keywords" content="IP, DNS, nslookup, reverse, iptodns, ip2dns" />
 
-    <title>Get DNS's by IP</title>
+    <title>DNS to IP</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
