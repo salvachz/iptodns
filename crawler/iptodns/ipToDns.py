@@ -3,6 +3,7 @@ import socket
 
 class IpToDns:
 
+    MIN_INT_IP = 16843009
     MAX_INT_IP = 4294967295
     querys = {
         'insertDNS': """INSERT IGNORE INTO Dns (dnsId, dnsName) VALUES (NULL, '%s')""",
@@ -32,5 +33,11 @@ class IpToDns:
             return []
 
     def get_all_IPs(self):
-        for int_ip in xrange(self.MAX_INT_IP):
+        for int_ip in xrange(self.MIN_INT_IP, self.MAX_INT_IP):
             yield socket.inet_ntoa(hex(int_ip)[2:].zfill(8).decode('hex'))
+
+    def get_hostname_by_IP(self, ip):
+        try:
+            return socket.gethostbyaddr(ip)[0]
+        except:
+            return False

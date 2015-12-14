@@ -1,13 +1,14 @@
 <html>
 <head>
     <meta name="robots" content="index, follow" />
-    <meta property="og:locale" content="pt_BR"/>
+    <meta property="og:locale" content="en_US"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="DNS to IP | Free online tool to convert IP to Domain Name"/>
     <meta property="og:description" content="DNS to IP - Free Online tool to find out which DNS respond by IP address." />
     <meta name="keywords" content="IP, DNS, nslookup, reverse, iptodns, ip2dns" />
+    <link rel="alternate" hreflang="en-US" href="http://www.iptodns.com.br/"/>
 
-    <title>DNS to IP</title>
+    <title>IP to DNS | Free online tool to convert IP to Domain Name</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
